@@ -1,0 +1,13 @@
+data         model                  bin avgs (0-0.7, 0.7-1.4, 1.4-2.1)      chi2(3)  sigma
+DESI+CMB     phi-ladder             -0.959, -1.123, -1.201                     4.24   1.18
+DESI+CMB     DESI CPL mean (-0.42,-1.75) -0.842, -1.306, -1.529                     1.12   0.29
+             DESI binned (data)     -0.840, -1.485, -1.209
++Pantheon+   phi-ladder             -0.959, -1.123, -1.201                     3.57   1.01
++Pantheon+   DESI CPL mean (-0.84,-0.62) -0.987, -1.151, -1.229                     5.70   1.53
+             DESI binned (data)     -0.919, -1.384, -1.255
++Union3      phi-ladder             -0.959, -1.123, -1.201                     6.76   1.75
++Union3      DESI CPL mean (-0.67,-1.09) -0.929, -1.218, -1.355                     3.18   0.91
+             DESI binned (data)     -0.862, -1.454, -1.209
++DESY5       phi-ladder             -0.959, -1.123, -1.201                     6.18   1.63
++DESY5       DESI CPL mean (-0.75,-0.86) -0.960, -1.189, -1.298                     5.65   1.52
+             DESI binned (data)     -0.894, -1.362, -1.366

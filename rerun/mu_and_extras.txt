@@ -1,0 +1,6 @@
+gamma_GR exact at z=0,0.5,1: ['0.556535', '0.547361', '0.543596'] -> predicted gamma (GR+F4): ['0.629484', '0.620310', '0.616545']
+[GR+F(4)] mu-1 at z=0,0.5,1,2: [-0.248, -0.137, -0.069, -0.019]
+[GR+F(4)] mu0 = -0.233; max residual = 0.0128
+[gamma=1/phi] mu-1 at z=0,0.5,1,2: [-0.178, -0.125, -0.068, -0.020]
+[gamma=1/phi] mu0 = -0.198; max residual = 0.0179
+SDSS anchored chi2: GR 6.48  1/phi 8.13  GR+F4 8.19

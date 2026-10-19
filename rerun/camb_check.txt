@@ -1,0 +1,24 @@
+phi-ladder best fit (DESI+CMB+DESY5): omega_bc=0.14198, omega_b=0.02243, h=0.6712, w0=-0.8090, wa=-0.6180
+
+quantity                       ours         CAMB      diff
+H(z=0.3)                    80.6771      80.6769    0.000%
+D_M(z=0.3)                 1221.418     1221.419   -0.000%
+H(z=0.5)                    90.6249      90.6246    0.000%
+D_M(z=0.5)                 1922.981     1922.985   -0.000%
+H(z=1.0)                   120.9008     120.9000    0.001%
+D_M(z=1.0)                 3359.201     3359.213   -0.000%
+H(z=2.0)                   202.8115     202.8096    0.001%
+D_M(z=2.0)                 5277.965     5277.992   -0.001%
+r_d (DESI fit vs CAMB)      147.094      147.143   -0.033%
+z* (calibrated vs CAMB)      1089.79      1089.79   -0.000%
+R (shift parameter)         1.74656      1.74658   -0.001%
+l_A (acoustic scale)       301.4323     301.4264    0.002%
+
+GR growth shape f*sigma8(z)/f*sigma8(0):
+  z=0.0: ours 1.0000  CAMB 1.0000  diff +0.000%
+  z=0.3: ours 1.0848  CAMB 1.0853  diff -0.043%
+  z=0.5: ours 1.0939  CAMB 1.0946  diff -0.070%
+  z=0.7: ours 1.0743  CAMB 1.0753  diff -0.096%
+  z=1.0: ours 1.0133  CAMB 1.0147  diff -0.132%
+  z=1.5: ours 0.8859  CAMB 0.8875  diff -0.186%
+  z=2.0: ours 0.7681  CAMB 0.7699  diff -0.232%

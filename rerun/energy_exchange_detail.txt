@@ -1,0 +1,14 @@
+Q = -xi H rho_DE: xi = 0.342 puts the crossing at z = 1/sqrt5. w_eff vs phi-ladder:
+   z=0.0: interacting w_eff = -0.809   phi-ladder w = -0.809
+   z=0.3: interacting w_eff = -0.919   phi-ladder w = -0.952
+   z=0.5: interacting w_eff = -1.035   phi-ladder w = -1.015
+   z=0.7: interacting w_eff = -1.211   phi-ladder w = -1.064
+   z=1.0: interacting w_eff = -1.729   phi-ladder w = -1.118
+   inferred dark-energy density becomes non-positive at z = 1.56
+Q = -xi H rho_c: xi = 0.576 puts the crossing at z = 1/sqrt5. w_eff vs phi-ladder:
+   z=0.0: interacting w_eff = -0.809   phi-ladder w = -0.809
+   z=0.3: interacting w_eff = -0.912   phi-ladder w = -0.952
+   z=0.5: interacting w_eff = -1.040   phi-ladder w = -1.015
+   z=0.7: interacting w_eff = -1.256   phi-ladder w = -1.064
+   z=1.0: interacting w_eff = -1.998   phi-ladder w = -1.118
+   inferred dark-energy density becomes non-positive at z = 1.43

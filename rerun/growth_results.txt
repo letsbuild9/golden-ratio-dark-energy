@@ -1,0 +1,33 @@
+f*sigma8 data (6dFGS, SDSS, BOSS, eBOSS): 7 points at z = 0.067, 0.150, 0.380, 0.510, 0.698, 0.850, 1.480
+Background LCDM     : H0 = 68.34, Om = 0.3036  (fit to DESI DR2 + CMB + DESY5, chi2 = 1664.06)
+Background Borse d=2: H0 = 67.12, Om = 0.3166  (fit to DESI DR2 + CMB + DESY5, chi2 = 1646.88)
+
+======================================================================================
+A. shape only (sigma8 free)
+======================================================================================
+background growth              chi2  sigma8_0      S8
+LCDM       GR (exact)          6.27    0.8328  0.8378
+LCDM       gamma = 0.55        6.28    0.8328  0.8379
+LCDM       gamma = 1/phi       5.76    0.8504  0.8555
+LCDM       gamma free          5.70   best gamma = 0.651 -0.131 +0.139   | 1/phi off by 0.24 sigma, 0.55 off by 0.76 sigma
+Borse d=2  GR (exact)          6.11    0.8336  0.8563
+Borse d=2  gamma = 0.55        6.12    0.8341  0.8569
+Borse d=2  gamma = 1/phi       5.56    0.8518  0.8751
+Borse d=2  gamma free          5.49   best gamma = 0.654 -0.130 +0.137   | 1/phi off by 0.27 sigma, 0.55 off by 0.79 sigma
+           (dof = 6 for fixed gamma)
+
+======================================================================================
+B. CMB-anchored amplitude
+======================================================================================
+background growth              chi2  sigma8_0      S8
+LCDM       GR (exact)          6.82    0.8048  0.8097
+LCDM       gamma = 0.55        6.88    0.8038  0.8086
+LCDM       gamma = 1/phi       8.72    0.7841  0.7889
+LCDM       gamma free          6.77   best gamma = 0.530 -0.058 +0.062   | 1/phi off by 1.40 sigma, 0.55 off by 0.33 sigma
+Borse d=2  GR (exact)          6.48    0.8107  0.8328
+Borse d=2  gamma = 0.55        6.56    0.8092  0.8313
+Borse d=2  gamma = 1/phi       8.13    0.7901  0.8117
+Borse d=2  gamma free          6.51   best gamma = 0.537 -0.059 +0.063   | 1/phi off by 1.27 sigma, 0.55 off by 0.21 sigma
+           (dof = 6 for fixed gamma)
+
+Saved figures/fig5_growth_index.png

@@ -1,0 +1,124 @@
+PASS  Table 1 DESI+CMB LCDM                                   -> DESI+CMB & \LCDM & 14.64 & 1.126 & 20.64 & 22.96 & 2.31
+PASS  Table 1 DESI+CMB Borse d=2                              ->  & $\gr$-ladder & 9.36 & 0.720 & \textbf{15.36} & \textbf{17.67} & 1.04
+PASS  Table 1 DESI+CMB w0waCDM                                ->  & $w_0w_a$ & 6.92 & 0.629 & 16.92 & 20.78 & --
+PASS  Table 1 +Pantheon+ LCDM                                 -> +Pantheon+ & \LCDM & 1420.40 & 0.887 & 1426.40 & 1442.55 & 2.24
+PASS  Table 1 +Pantheon+ Borse d=2                            ->  & $\gr$-ladder & 1414.03 & 0.883 & \textbf{1420.03} & \textbf{1436.18} & 0.51
+PASS  Table 1 +Pantheon+ w0waCDM                              ->  & $w_0w_a$ & 1413.04 & 0.883 & 1423.04 & 1449.94 & --
+PASS  Table 1 +Union3 LCDM                                    -> +Union3 & \LCDM & 43.05 & 1.266 & 49.05 & 53.96 & 3.25
+PASS  Table 1 +Union3 Borse d=2                               ->  & $\gr$-ladder & 31.40 & 0.923 & \textbf{37.40} & \textbf{42.31} & 0.85
+PASS  Table 1 +Union3 w0waCDM                                 ->  & $w_0w_a$ & 29.53 & 0.923 & 39.53 & 47.71 & --
+PASS  Table 1 +DESY5 LCDM                                     -> +DESY5 & \LCDM & 1664.06 & 0.904 & 1670.06 & 1686.62 & 3.80
+PASS  Table 1 +DESY5 Borse d=2                                ->  & $\gr$-ladder & 1646.88 & 0.895 & \textbf{1652.88} & \textbf{1669.44} & 0.28
+PASS  Table 1 +DESY5 w0waCDM                                  ->  & $w_0w_a$ & 1646.38 & 0.895 & 1656.38 & 1683.98 & --
+PASS  Table 1 +DES-Dovekie LCDM                               -> +DES-Dovekie & \LCDM & 1649.71 & 0.900 & 1655.71 & 1672.26 & 2.80
+PASS  Table 1 +DES-Dovekie Borse d=2                          ->  & $\gr$-ladder & 1639.71 & 0.895 & \textbf{1645.71} & \textbf{1662.25} & 0.30
+PASS  Table 1 +DES-Dovekie w0waCDM                            ->  & $w_0w_a$ & 1639.17 & 0.896 & 1649.17 & 1676.75 & --
+PASS  phi-ladder vs free range (abstract and text)            -> lies $0.3$--$1.0\sigma$ from the free fit
+PASS  phi-ladder vs free range (conclusion)                   -> lies $0.3$--$1.0\sigma$ from the best free fit
+PASS  LCDM disfavored range                                   -> \LCDM\ is disfavored at $2.2$--$3.8\sigma$
+PASS  d=3 branch range (Table 1 caption)                      -> The $d = 3$ branch is $1.0$--$2.2\sigma$
+PASS  phi-ladder preferred over LCDM by dchi2                 -> $\Delta\chi^2 = 5.3$--$17.2$
+PASS  DES-Dovekie free best fit                               -> $(w_0, w_a) = (-0.822, -0.637)$
+PASS  phi-ladder backgrounds H0 and Om                        -> $H_0 \simeq 67.1$--$67.2$\,km\,s$^{-1}$\,Mpc$^{-1}$ and $\Om \simeq 0.316$--$0.317$
+PASS  look-elsewhere ranks                                    -> ranks 4th (Pantheon+), 15th (Union3), 4th (DESY5) and 2nd (DES-Dovekie) out of 403
+PASS  pairs within 1 sigma per sample                         -> 10--19 pairs from the family
+PASS  only the phi pair within 1 sigma for all three samples (both DES versions) -> ['[(-0.809, -0.618)]', '[(-0.809, -0.618)]']
+PASS  free-x DESI+CMB                                         -> DESI+CMB & 0.692 & [0.54, 0.80]
+PASS  free-x +Pantheon+                                       -> +Pantheon+ & 0.550 & [0.46, 0.62]
+PASS  free-x +Union3                                          -> +Union3 & 0.692 & [0.61, 0.77]
+PASS  free-x +DESY5                                           -> +DESY5 & 0.643 & [0.58, 0.70]
+PASS  free-x +DES-Dovekie                                     -> +DES-Dovekie & 0.576 & [0.50, 0.64]
+PASS  free-x range (abstract and text)                        -> $x = 0.55$--$0.69$
+PASS  overlap of the five 68% ranges                          -> overlap only in $[0.61, 0.62]$
+PASS  1/phi at the edge for Pantheon+                         -> ($\Delta\chi^2 = 0.98$)
+PASS  1/phi is the only named constant inside every 68% range -> ['1/phi']
+PASS  Table 2 DESI+CMB (baseline)                             -> DESI+CMB (baseline) & 85.3\% & 1.45
+PASS  Table 2 +Pantheon+                                      -> +Pantheon+ & 39.9\% & 0.52
+PASS  Table 2 +Union3                                         -> +Union3 & 70.4\% & 1.04
+PASS  Table 2 +DESY5                                          -> +DESY5 & 40.4\% & 0.53
+PASS  Table 2 DESI+CMB, Planck PR3 plik                       -> DESI+CMB, Planck PR3 plik & 80.2\% & 1.29
+PASS  Table 2 +DESY5, Planck PR3 plik                         -> +DESY5, Planck PR3 plik & 35.8\% & 0.47
+PASS  Table 2 +DESY5, HiLLiPoP/LoLLiPoP                       -> +DESY5, HiLLiPoP/LoLLiPoP & 21.1\% & 0.27
+PASS  Table 2 +DESY5 with $z > 0.1$                           -> +DESY5 with $z > 0.1$ & 17.8\% & 0.23
+PASS  Table 2 DESI BAO only (no CMB)                          -> DESI BAO only (no CMB) & 72.2\% & 1.08
+PASS  Table 2 DESI BAO + DESY5 (no CMB)                       -> DESI BAO + DESY5 (no CMB) & 10.7\% & 0.14
+PASS  alternative CMB likelihood range                        -> ($0.27$--$1.29\sigma$)
+PASS  no-CMB range                                            -> ($0.14$--$1.08\sigma$)
+PASS  low-z SN cut                                            -> low-redshift SN cut ($0.23\sigma$)
+PASS  official-chain curve x range                            -> ($0.555$--$0.695$)
+PASS  pivot row DESI+CMB                                      -> DESI+CMB & 0.53 & $-1.024 \pm 0.043$ & $-1.023$ & $0.02\sigma$ & $-1.63\sigma$ & $-0.31\sigma$
+PASS  pivot row +Pantheon+                                    -> +Pantheon+ & 0.31 & $-0.984 \pm 0.025$ & $-0.956$ & $1.16\sigma$ & $1.16\sigma$ & $0.90\sigma$
+PASS  pivot row +Union3                                       -> +Union3 & 0.39 & $-0.972 \pm 0.032$ & $-0.983$ & $-0.33\sigma$ & $-0.98\sigma$ & $0.39\sigma$
+PASS  pivot row +DESY5                                        -> +DESY5 & 0.31 & $-0.954 \pm 0.024$ & $-0.954$ & $0.00\sigma$ & $-0.04\sigma$ & $0.73\sigma$
+PASS  pivot agreement range                                   -> agrees to $0.00$--$1.16\sigma$
+PASS  BF DESI+CMB                                             -> $B = 14$--$16$ (DESI+CMB)
+PASS  BF Pantheon+                                            -> $270$--$280$ (+Pantheon+)
+PASS  BF Union3                                               -> $67$--$77$ (+Union3)
+PASS  BF DESY5                                                -> $250$--$270$ (+DESY5)
+PASS  BF LCDM:free                                            -> $B = 0.25$--$0.48$, $2.2$--$2.5$ and $0.01$--$0.07$
+PASS  BF peak values                                          -> is $88$, $464$, $258$ and $488$
+PASS  BF phi:LCDM lower bounds                                -> \gtrsim 30$, $110$ and $960$ for DESI+CMB, +Pantheon+ and +Union3
+PASS  DESY5 LCDM point outside the sampled region (stated, not 'zero')
+PASS  BF ratio to peak                                        -> reaches $18$--$60\%$
+PASS  fixed-z predictions (Table 3 caption)                   -> $w(0.3) = -0.9516$ and $w(0.5) = -1.0150$
+PASS  Table 2 caption d=3 sigmas                              -> lies at $1.7$, $2.6$, $1.4$ and $1.6\sigma$
+PASS  non-crossing Gaussian range (official)                  -> $4.0$--$5.3\sigma$ (Gaussian estimate)
+PASS  lookback time to z_cross                                -> about $4.75$\,Gyr ago
+PASS  dark energy overtakes matter / acceleration onset       -> dark energy overtakes matter at $z = 0.334$ and acceleration begins at $z = 0.729$
+PASS  future evolution numbers                                -> universe is $1.67$ times its present size, and matter would dominate again at $5.2$ times
+PASS  CPL breakdown                                           -> beyond $3.9$ times the present size
+PASS  mu - 1 values (gamma = 1/phi)                           -> $\mu - 1 = -0.178$, $-0.125$, $-0.068$ and $-0.020$
+PASS  mu0 (gamma = 1/phi)                                     -> \mu_0 \simeq -0.20
+PASS  mu fit residual                                         -> within $0.018$
+PASS  alternative rule gamma values                           -> $\gamma = 0.629, 0.620, 0.617$
+PASS  chi2 1/phi vs GR+F4 (Remark)                            -> $\chi^2 = 8.13$ versus $8.19$
+PASS  growth table SDSS                                       -> SDSS (6dF, MGS, BOSS, eBOSS) & $0.654^{+0.137}_{-0.130}$ & $0.3\sigma$ & $0.537^{+0.063}_{-0.059}$ & $1.3\sigma$
+PASS  growth table DESI                                       -> DESI DR1 (FS + PV) & $0.568^{+0.120}_{-0.111}$ & $0.4\sigma$ & $0.536^{+0.072}_{-0.067}$ & $1.1\sigma$
+PASS  implied S8                                              -> $S_8 = 0.812$
+PASS  growth CMB-anchored range (abstract)                    -> growth index is $1.1$--$1.3\sigma$
+PASS  drag: brief xi enhancement                              -> $+0.45\%$ for $\xi = (7\gr - 10)/4
+PASS  drag: xi=3 enhancement                                  -> $+4.2\%$ for $\xi = 3$
+PASS  drag: target suppression                                -> The target is a 2.6\% lower growth factor
+PASS  non-crossing compressed range                           -> excluded at $4.2$--$4.9\sigma$ by the data of Table
+PASS  non-crossing xi and cross-section                       -> $\xi \approx 2.3$ ($\sigma_D/m_c \approx 36$\,b/GeV)
+PASS  non-crossing Delta gamma range                          -> $\Delta\gamma = 0.066$--$0.072$
+PASS  non-crossing required Delta gamma                       -> close to the $0.059$--$0.069$ required in that background
+PASS  crossing target gamma - gamma_GR range                  -> $\gamma - \gamma_{\rm GR} \approx 0.06$--$0.08$ for $0 \le z \le 1.5$
+PASS  Planck validation                                       -> $r_s(z_*) = 144.43$\,Mpc, $r_d = 147.09$\,Mpc and $100\theta_* = 1.04110$
+PASS  EDE r_d reduction range                                 -> by only $0.8$--$2.4\%$
+PASS  EDE fraction needed                                     -> $\fede \approx 0.21$
+PASS  EDE H0 range                                            -> from $69.0$ (holding $H_0 r_d$ fixed) to $76.0$
+PASS  CAMB H and D_M                                          -> agrees with CAMB to $0.001\%$ in $H(z)$ and $D_M(z)$
+PASS  CAMB R and l_A                                          -> $0.001\%$ in $R$, $0.002\%$ in $\ell_A$
+PASS  CAMB r_d                                                -> $0.03\%$ in $r_d$
+PASS  CAMB growth shape                                       -> $0.23\%$ in the shape of $f\sigma_8(z)$
+PASS  z* calibration residual < 4e-7 (3.92e-07)
+PASS  E1a r_d-free phi vs free values                         -> $\gr$-ladder lies $1.07$ (BAO only), $0.76$ (+Pantheon+), $0.63$ (+Union3), $0.10$ (+DESY5) and $0.25\sigma$ (+DES-Dovekie)
+PASS  E1a LCDM range                                          -> \LCDM\ is disfavored at $1.7$--$3.3\sigma$. This agrees
+PASS  E1b phi vs free range                                   -> stays $0.2$--$1.3\sigma$ from the free fit
+PASS  E1b LCDM range                                          -> \LCDM\ is disfavored at $2.0$--$4.0\sigma$, and $H_0$ rises to $68.1$--$70.4$
+PASS  E1b r_d shrinkage range                                 -> ($r_d$ shrinks by $0.8$--$2.3\%$)
+PASS  binned table DESI+CMB                                   -> DESI+CMB & $-0.840 \pm 0.073$ & $-1.485 \pm 0.204$ & $-1.209 \pm 0.772$ & $1.18\sigma$ & $0.29\sigma$
+PASS  binned table +Pantheon+                                 -> +Pantheon+ & $-0.919 \pm 0.030$ & $-1.384 \pm 0.172$ & $-1.255 \pm 0.751$ & $1.01\sigma$ & $1.53\sigma$
+PASS  binned table +Union3                                    -> +Union3 & $-0.862 \pm 0.042$ & $-1.454 \pm 0.181$ & $-1.209 \pm 0.753$ & $1.75\sigma$ & $0.91\sigma$
+PASS  binned table +DESY5                                     -> +DESY5 & $-0.894 \pm 0.029$ & $-1.362 \pm 0.168$ & $-1.366 \pm 0.746$ & $1.63\sigma$ & $1.52\sigma$
+PASS  binned theory averages                                  -> the predicted averages are $-0.959$, $-1.123$ and $-1.201$
+PASS  binned phi range                                        -> at $1.0$--$1.75\sigma$, comparable
+PASS  binned DESI CPL range                                   -> CPL models ($0.3$--$1.5\sigma$)
+PASS  energy-exchange couplings                               -> with $\xi = 0.34$ and $0.58$ respectively
+PASS  energy-exchange w_eff at z=1                            -> ($-1.73$ and $-2.00$ at $z = 1$, against $-1.12$ predicted)
+PASS  energy-exchange negative density                        -> turns negative by $z = 1.6$ and $1.4$
+PASS  energy-exchange w_eff within 0.04 of prediction up to z=0.5 (max 0.040)
+PASS  prediction vs published DES-Dovekie (w0, wa)            -> the prediction lies $0.1\sigma$ and $0.5\sigma$ from these values
+PASS  robustness summary: binned                              -> deviates by $1.0$--$1.75\sigma$, comparable to DESI's own best-fit CPL models ($0.3$--$1.5\sigma$)
+PASS  robustness summary: no CMB, r_d free                    -> the $\gr$-ladder lies $0.1$--$1.1\sigma$ from the free fit; with CMB
+PASS  robustness summary: with EDE                            -> it lies $0.2$--$1.3\sigma$ from it
+PASS  pivot redshift range                                    -> pivot redshifts ($0.31$--$0.53$)
+PASS  S8 in prediction section                                -> $S_8 \approx 0.81$ ($0.812$ in the best-fit background
+PASS  abstract within arXiv's 1920-character limit (1733 characters of source)
+PASS  paper lock hash matches PREDICTIONS.sha256              -> \newcommand{\lockhash}{70b9cfb23fc1e0d119ebd81aed270933960fa52256f89f505f799bb3a81767f2}
+PASS  w(0.3) exact value                                      -> = -0.9516
+PASS  w(0.5) exact value                                      -> = -1.0150
+PASS  all symbolic proofs pass
+
+122/122 checks passed

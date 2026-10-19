@@ -1,0 +1,2 @@
+z*_CAMB/z*_HS - 1 ranges -0.00197 .. -0.00169; quadratic correction residual max 3.92e-07 (relative), i.e. < 0.0004 in z*
+saved data/zstar_calibration.json

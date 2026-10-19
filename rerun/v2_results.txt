@@ -1,0 +1,91 @@
+
+================================================================================================
+T6. Model comparison incl. DES-Dovekie, with absolute goodness of fit
+================================================================================================
+data                     model       k      chi2   dof chi2/dof  p-value       AIC       BIC nsig vs free
+DESI+CMB                 LCDM        3     14.64    13    1.126    0.330     20.64     22.96         2.31
+DESI+CMB                 Borse d=2   3      9.36    13    0.720    0.746     15.36     17.67         1.04
+DESI+CMB                 Borse d=3   3     10.04    13    0.772    0.691     16.04     18.36         1.25
+DESI+CMB                 w0waCDM     5      6.92    11    0.629    0.805     16.92     20.78           --
+                         free best fit: w0 = -0.451, wa = -1.631
+DESI+CMB+PantheonPlus    LCDM        3   1420.40  1602    0.887    1.000   1426.40   1442.55         2.24
+DESI+CMB+PantheonPlus    Borse d=2   3   1414.03  1602    0.883    1.000   1420.03   1436.18         0.51
+DESI+CMB+PantheonPlus    Borse d=3   3   1420.12  1602    0.886    1.000   1426.12   1442.27         2.18
+DESI+CMB+PantheonPlus    w0waCDM     5   1413.04  1600    0.883    1.000   1423.04   1449.94           --
+                         free best fit: w0 = -0.855, wa = -0.516
+DESI+CMB+Union3          LCDM        3     43.05    34    1.266    0.137     49.05     53.96         3.25
+DESI+CMB+Union3          Borse d=2   3     31.40    34    0.923    0.596     37.40     42.31         0.85
+DESI+CMB+Union3          Borse d=3   3     31.69    34    0.932    0.581     37.69     42.60         0.96
+DESI+CMB+Union3          w0waCDM     5     29.53    32    0.923    0.592     39.53     47.71           --
+                         free best fit: w0 = -0.688, wa = -0.987
+DESI+CMB+DESY5           LCDM        3   1664.06  1841    0.904    0.999   1670.06   1686.62         3.80
+DESI+CMB+DESY5           Borse d=2   3   1646.88  1841    0.895    1.000   1652.88   1669.44         0.28
+DESI+CMB+DESY5           Borse d=3   3   1649.25  1841    0.896    0.999   1655.25   1671.81         1.18
+DESI+CMB+DESY5           w0waCDM     5   1646.38  1839    0.895    0.999   1656.38   1683.98           --
+                         free best fit: w0 = -0.768, wa = -0.773
+DESI+CMB+DESDovekie      LCDM        3   1649.71  1832    0.900    0.999   1655.71   1672.26         2.80
+DESI+CMB+DESDovekie      Borse d=2   3   1639.71  1832    0.895    0.999   1645.71   1662.25         0.30
+DESI+CMB+DESDovekie      Borse d=3   3   1646.00  1832    0.898    0.999   1652.00   1668.55         2.13
+DESI+CMB+DESDovekie      w0waCDM     5   1639.17  1830    0.896    0.999   1649.17   1676.75           --
+                         free best fit: w0 = -0.822, wa = -0.637
+
+================================================================================================
+T3. Look-elsewhere test (403 ladder-family pairs), now incl. DES-Dovekie
+================================================================================================
+DESI+CMB+PantheonPlus    phi-ladder rank   4/403;  pairs within 1 sigma of free fit:  10
+DESI+CMB+Union3          phi-ladder rank  15/403;  pairs within 1 sigma of free fit:  19
+DESI+CMB+DESY5           phi-ladder rank   4/403;  pairs within 1 sigma of free fit:  11
+DESI+CMB+DESDovekie      phi-ladder rank   2/403;  pairs within 1 sigma of free fit:  11
+within 1 sigma for all of [Pantheon+, Union3, DESY5]: [(-0.809, -0.618)]
+within 1 sigma for all of [Pantheon+, Union3, DES-Dovekie]: [(-0.809, -0.618)]
+
+================================================================================================
+T1/T2. Free x on the ladder curve w0 = -1 + x^2/2, wa = -x (compressed-CMB pipeline)
+================================================================================================
+
+DESI+CMB: best x = 0.692  (68% interval on 0.01 grid: [0.54, 0.80]);  1/phi is at dchi2 = 0.33
+   dchi2 at named constants: 1/e=2.86, 0.5=1.56, 0.6=0.49, 1/phi=0.33, pi/5=0.25, 2/3=0.05, ln2=0.00, 1/sqrt2=0.02, 0.75=0.29
+
+DESI+CMB+PantheonPlus: best x = 0.550  (68% interval on 0.01 grid: [0.46, 0.62]);  1/phi is at dchi2 = 0.98
+   dchi2 at named constants: 1/e=3.33, 0.5=0.38, 0.6=0.50, 1/phi=0.98, pi/5=1.32, 2/3=3.22, ln2=5.15, 1/sqrt2=6.40, 0.75=11.39
+
+DESI+CMB+Union3: best x = 0.692  (68% interval on 0.01 grid: [0.61, 0.77]);  1/phi is at dchi2 = 0.86
+   dchi2 at named constants: 1/e=8.51, 0.5=4.30, 0.6=1.27, 1/phi=0.86, pi/5=0.65, 2/3=0.12, ln2=0.00, 1/sqrt2=0.05, 0.75=0.70
+
+DESI+CMB+DESY5: best x = 0.643  (68% interval on 0.01 grid: [0.58, 0.70]);  1/phi is at dchi2 = 0.18
+   dchi2 at named constants: 1/e=11.61, 0.5=4.50, 0.6=0.52, 1/phi=0.18, pi/5=0.07, 2/3=0.19, ln2=0.87, 1/sqrt2=1.46, 0.75=4.41
+
+DESI+CMB+DESDovekie: best x = 0.576  (68% interval on 0.01 grid: [0.50, 0.64]);  1/phi is at dchi2 = 0.46
+   dchi2 at named constants: 1/e=5.61, 0.5=1.12, 0.6=0.14, 1/phi=0.46, pi/5=0.74, 2/3=2.43, ln2=4.31, 1/sqrt2=5.57, 0.75=10.78
+
+================================================================================================
+T1b/T8/T4/T5. Official DESI DR2 chains
+================================================================================================
+chains                             level  nsig |  x_best (curve) | BF(phi:free) BF(LCDM:free) |   z_p       w_p data  w_p th   dev |    w(0.3) data   dev |    w(0.5) data   dev
+DESI+CMB (CamSpec) [baseline]      85.3%  1.45 | 0.695 [0.56,0.76] |    14.3-16.1     0.25-0.48 |  0.53  -1.024+-0.043  -1.023  0.02 |  -0.822+-0.079 -1.63 |  -1.002+-0.044 -0.31
++Pantheon+ [baseline]              39.9%  0.52 | 0.555 [0.46,0.61] |  273.9-279.4     2.20-2.48 |  0.31  -0.984+-0.025  -0.956  1.16 |  -0.980+-0.025  1.16 |  -1.043+-0.032  0.90
++Union3 [baseline]                 70.4%  1.04 | 0.680 [0.60,0.73] |    67.2-77.4     0.01-0.07 |  0.39  -0.972+-0.032  -0.983 -0.33 |  -0.917+-0.035 -0.98 |  -1.029+-0.035  0.39
++DESY5 [baseline]                  40.4%  0.53 | 0.640 [0.58,0.70] |  249.4-271.4 <~0 (not sampled) |  0.31  -0.954+-0.024  -0.954 -0.00 |  -0.951+-0.024 -0.04 |  -1.039+-0.033  0.73
+DESI+CMB (Planck PR3 plik)         80.2%  1.29 | 0.750 [0.54,0.78] |    16.8-19.8     0.29-0.56 |  0.52  -1.013+-0.044  -1.020 -0.15 |  -0.824+-0.079 -1.63 |  -1.000+-0.044 -0.33
++DESY5 (plik)                      35.8%  0.47 | 0.645 [0.57,0.70] |  264.7-286.9 <~0 (not sampled) |  0.30  -0.946+-0.024  -0.950 -0.15 |  -0.949+-0.024 -0.12 |  -1.036+-0.034  0.61
++DESY5 (HiLLiPoP/LoLLiPoP)         21.1%  0.27 | 0.645 [0.59,0.70] |  339.2-359.6     0.00-0.00 |  0.31  -0.947+-0.024  -0.953 -0.29 |  -0.944+-0.024 -0.31 |  -1.024+-0.033  0.29
++DESY5 with z>0.1                  17.8%  0.23 | 0.590 [0.43,0.66] |  179.0-187.7     6.08-7.45 |  0.44  -1.019+-0.032  -0.998  0.66 |  -0.962+-0.040  0.25 |  -1.040+-0.033  0.76
+DESI BAO only (no CMB)             72.2%  1.08 | 0.720 [0.57,0.88] |    10.0-11.2     4.17-4.52 |  0.36  -0.918+-0.075  -0.973 -0.74 |  -0.861+-0.082 -1.11 |  -1.031+-0.100  0.16
+DESI BAO + DESY5 (no CMB)          10.7%  0.14 | 0.645 [0.57,0.71] |  125.3-127.4     0.00-0.07 |  0.15  -0.873+-0.038  -0.888 -0.41 |  -0.946+-0.062 -0.09 |  -1.020+-0.104  0.05
+
+Theory: w(z=0.3) = -0.9516, w(z=0.5) = -1.0150.  Prior area for Bayes factors = 15.5 (DESI DR2: w0 in U[-3,1], wa in U[-3,2], w0+wa<0). BF > 1 favours the fixed point over free (w0,wa); ranges show sensitivity to histogram smoothing. BF(phi:LCDM) = BF(phi:free)/BF(LCDM:free).
+
+================================================================================================
+T12. Background history implied by the phi-ladder w(a) (CPL, flat; Om from the DESY5 phi-ladder fit)
+================================================================================================
+Om = 0.3166, H0 = 67.12
+dark-energy density maximum at z = 0.4472 (equals z_cross); lookback time 4.75 Gyr
+dark energy overtakes matter at z = 0.334; acceleration begins at z = 0.729
+quintom-B check: w0 = -0.8090 > -1 and w0 + wa = -1.4271 < -1 -> True
+CPL extrapolated to the future: acceleration ends at a = 1.67; matter dominates again at a = 5.24; w exceeds +1 at a = 3.93 (extrapolation invalid)
+
+================================================================================================
+T11. Effective-gravity mu0 for a constant growth index gamma = 1/phi (phi-ladder background, DESY5 fit)
+================================================================================================
+gamma = 1/phi (constant)  : mu - 1 at z=0: -0.178, z=0.5: -0.125, z=1: -0.068, z=2: -0.020;  mu0 = -0.198; max residual 0.0179
+gamma = gamma_GR + F(4)   : mu - 1 at z=0: -0.248, z=0.5: -0.137, z=1: -0.069, z=2: -0.019;  mu0 = -0.233; max residual 0.0128

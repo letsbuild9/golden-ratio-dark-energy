@@ -1,0 +1,83 @@
+
+========================================================================
+1. Late dark energy (CPL: w = w0 + wa z/(1+z))
+========================================================================
+Borse w0 = -0.8090, wa = -0.6180
+Phantom crossing z = 0.4472   (claim 1/sqrt5 = 0.4472)
+
+Distance from DESI DR2 best fits (Gaussian approx, w0-wa correlation unknown):
+dataset                 dw0/sig  dwa/sig  nsig rho=0  nsig rho=-0.9
+DESI+CMB+Pantheon+         0.53     0.01        0.53           1.23
+DESI+CMB+Union3           -1.61     1.63        2.29           1.66
+DESI+CMB+DESY5            -1.00     1.13        1.51           1.13
+
+========================================================================
+2. Growth index gamma = 1/phi -> S8
+========================================================================
+Omega_m = 0.3152, Planck S8 (early-universe normalised) = 0.832
+gamma = 0.5500:  D/D_LCDM = 0.9999  ->  S8 = 0.832
+gamma = 0.6180:  D/D_LCDM = 0.9757  ->  S8 = 0.812
+Claim: S8 ~ 0.778.  Weak lensing: DES Y3 ~0.776, KiDS-1000 ~0.759, KiDS-Legacy ~0.815.
+Note: gamma alone ignores the w0/wa background, which also changes growth.
+
+========================================================================
+3. Early dark energy f = x^4/2 -> sound horizon and H0
+========================================================================
+Baseline LCDM (validation of this code against Planck 2018):
+  r_s(z*) = 144.43 Mpc (Planck 144.43), r_d = 147.09 Mpc (Planck 147.09)
+  100 theta* = 1.04110 (Planck 1.0411)
+
+EDE fraction f = x^4/2 = 0.07295
+Claim: r_s = 136.36 Mpc, H0 = 72.70.  Note 147.09*(1-f) = 136.36, 67.36/(1-f) = 72.66  -> the claim assumes r_s shrinks by exactly f.
+
+    z_c  r_d [Mpc]  dr_d/r_d  H0 (theta* fixed)  H0 (H0*r_d fixed)
+   1000     145.87    -0.83%              70.13              67.92
+   2000     144.10    -2.03%              74.64              68.76
+   3500     143.62    -2.36%              76.00              68.99
+   5000     143.64    -2.34%              75.98              68.98
+  10000     144.00    -2.10%              75.08              68.80
+
+EDE fraction needed at z_c=3500 to reach r_d = 136.36 Mpc: f = 0.214
+Caveat: in full CMB fits EDE also raises omega_c (~+10%), which pulls H0 back down.
+
+========================================================================
+4. Internal consistency of the Scientific Brief (pages 4-8)
+========================================================================
+x^4/2 = 0.07295,  (5 - 3 phi)/2 = 0.07295   (identity holds)
+r_s formula: 147.09 * (1 - phi^-4/2) = 136.36 Mpc   (brief prints 147.09: typo)
+H0 formula: 67.40 / (1 - phi^-4/2) = 72.70   (this is H0*r_s = const, not theta* fixed)
+xi = (7 phi - 10)/4 = 0.3316   (new constant: 7, 10, 4 are not from the d-ladder)
+d=3 branch: w0 = -1 + phi^-3 = -0.7639  vs d=2 branch: w0 = -0.8090  -> two predictions for one number
+
+Phantom-crossing redshift of each DESI DR2 best fit (CPL):
+  DESI+CMB+Pantheon+     z_cross = 0.354
+  DESI+CMB+Union3        z_cross = 0.440
+  DESI+CMB+DESY5         z_cross = 0.405
+  Borse                  z_cross = 0.447   (fixed by w0, wa: not an independent test)
+
+Brief's 'statistical agreement' column, recomputed:
+  w0 vs Pantheon+                        pred  -0.8090  obs  -0.838 +- 0.055  -> 0.53 sigma
+  wa vs Pantheon+                        pred  -0.6180  obs  -0.620 +- 0.205  -> 0.01 sigma
+  gamma vs Nguyen+2023 RSD               pred   0.6180  obs   0.633 +- 0.025  -> 0.60 sigma
+  S8 (0.778 claimed) vs DES Y3           pred   0.7780  obs   0.776 +- 0.017  -> 0.12 sigma
+  S8 (0.812 from gamma) vs DES Y3        pred   0.8120  obs   0.776 +- 0.017  -> 2.12 sigma
+  S8 (0.812 from gamma) vs KiDS-Legacy   pred   0.8120  obs   0.815 +- 0.021  -> 0.14 sigma
+  H0 vs SH0ES 2022                       pred  72.7037  obs  73.040 +- 1.040  -> 0.32 sigma
+
+========================================================================
+5. Look-elsewhere test: how easy is it to hit these numbers with phi?
+========================================================================
+Family A: (p + q phi)/r, |p|,|q| <= 10, r <= 4  -> 1418 distinct numbers
+Family B: brief's ladder +-{1, 1/2} x^d (+0, +-1), d = 1..4 -> 44 distinct numbers
+target                       1-sigma window  hits A  hits B  example from A
+w0 (Pantheon+)             -0.893 .. -0.783      11       3  -0.8426
+w0 (DESY5)                 -0.809 .. -0.695      11       1  -0.7454
+w0 (Union3)                -0.755 .. -0.579      16       2  -0.6631
+wa (Pantheon+)             -0.825 .. -0.415      41       4  -0.6180
+gamma (RSD)                 0.608 ..  0.658       4       1  0.6320
+S8/S8_Planck (DES Y3)       0.912 ..  0.953       4       1  0.9271
+EDE f (typical fits)        0.060 ..  0.120       6       2  0.0902
+Many hits => matching a measurement with some phi-expression is expected by chance,
+so a match is evidence only if the expression is fixed BEFORE looking at the data.
+
+Figures written to /Users/work/Desktop/Borse/figures

@@ -1,0 +1,63 @@
+
+================================================================================================
+E1a. EDE-agnostic check: DESI BAO (+SN) with r_d free, no CMB (only h*r_d enters)
+================================================================================================
+data                    chi2 phi chi2 LCDM chi2 free phi vs free LCDM vs free  free (w0, wa)    Om(phi)
+DESI BAO                    8.13     10.28      5.62       1.07s        1.66s  (-0.180, -2.712)  0.319
+BAO+PantheonPlus         1412.90   1416.18   1411.28       0.76s        1.72s  (-0.890, -0.213)  0.315
+BAO+Union3                 30.06     38.85     28.78       0.63s        2.72s  (-0.696, -1.004)  0.320
+BAO+DESY5                1645.62   1659.02   1645.45       0.10s        3.26s  (-0.782, -0.724)  0.319
+BAO+DESDovekie           1638.57   1645.32   1638.12       0.25s        2.21s  (-0.843, -0.534)  0.315
+
+================================================================================================
+E1b. Indicative: DESI+CMB(+SN) with f_EDE = 0.073 in H(z) (compressed CMB priors assume standard early physics!)
+================================================================================================
+   z_c data                     phi vs free LCDM vs free  H0(phi) r_d ratio  free (w0, wa)
+  1000 DESI+CMB                       1.33s        2.68s    68.10    0.9917  (-0.387, -1.843)
+  1000 DESI+CMB+PantheonPlus          0.53s        2.47s    68.16    0.9917  (-0.845, -0.572)
+  1000 DESI+CMB+Union3                1.03s        3.48s    68.07    0.9917  (-0.672, -1.062)
+  1000 DESI+CMB+DESY5                 0.45s        3.99s    68.08    0.9917  (-0.757, -0.833)
+  1000 DESI+CMB+DESDovekie            0.42s        3.03s    68.16    0.9917  (-0.811, -0.697)
+  3500 DESI+CMB                       0.85s        2.08s    70.27    0.9768  (-0.489, -1.534)
+  3500 DESI+CMB+PantheonPlus          0.70s        2.02s    70.35    0.9768  (-0.865, -0.493)
+  3500 DESI+CMB+Union3                0.70s        3.05s    70.25    0.9768  (-0.700, -0.961)
+  3500 DESI+CMB+DESY5                 0.19s        3.56s    70.27    0.9768  (-0.777, -0.755)
+  3500 DESI+CMB+DESDovekie            0.46s        2.56s    70.36    0.9768  (-0.832, -0.616)
+ 10000 DESI+CMB                       0.82s        2.03s    69.93    0.9794  (-0.498, -1.505)
+ 10000 DESI+CMB+PantheonPlus          0.70s        2.00s    70.01    0.9794  (-0.866, -0.485)
+ 10000 DESI+CMB+Union3                0.68s        3.02s    69.91    0.9794  (-0.702, -0.951)
+ 10000 DESI+CMB+DESY5                 0.17s        3.54s    69.93    0.9794  (-0.778, -0.746)
+ 10000 DESI+CMB+DESDovekie            0.44s        2.54s    70.02    0.9794  (-0.834, -0.607)
+
+================================================================================================
+B1. DESI DR2 binned w(z) (official chains, w piecewise constant) vs bin-averaged phi-ladder w(z)
+================================================================================================
+theory bin averages (uniform in z): [0.0-0.7] -0.959, [0.7-1.4] -1.123, [1.4-2.1] -1.201, [2.1-10.0] -1.328
+DESI+CMB     bin0: -0.840+-0.073 (-1.62s)  bin1: -1.485+-0.204 (+1.77s)  bin2: -1.209+-0.772 (+0.01s)  bin3: -1.860+-0.741 (+0.72s) | first 3 bins jointly: chi2 = 4.24 (3 dof) -> 1.18 sigma
++Pantheon+   bin0: -0.919+-0.030 (-1.30s)  bin1: -1.384+-0.172 (+1.52s)  bin2: -1.255+-0.751 (+0.07s)  bin3: -1.835+-0.737 (+0.69s) | first 3 bins jointly: chi2 = 3.57 (3 dof) -> 1.01 sigma
++Union3      bin0: -0.862+-0.042 (-2.31s)  bin1: -1.454+-0.181 (+1.84s)  bin2: -1.209+-0.753 (+0.01s)  bin3: -1.849+-0.736 (+0.71s) | first 3 bins jointly: chi2 = 6.76 (3 dof) -> 1.75 sigma
++DESY5       bin0: -0.894+-0.029 (-2.26s)  bin1: -1.362+-0.168 (+1.43s)  bin2: -1.366+-0.746 (+0.22s)  bin3: -1.844+-0.732 (+0.70s) | first 3 bins jointly: chi2 = 6.18 (3 dof) -> 1.63 sigma
+
+================================================================================================
+Q1. Energy exchange (background only). Inferred rho_DE,eff = rho_DE + rho_c - rho_c0 a^-3
+================================================================================================
+Analytic: 1 + w_eff = [(1+w) rho_DE + D] / (rho_DE + D), D = rho_c - rho_c0 a^-3. An apparent phantom past needs D < 0,
+i.e. dark matter LESS dense in the past than a^-3 extrapolation: energy must flow DE -> DM (Q < 0 in rho_c' + 3H rho_c = -Q).
+
+Q = -xi H rho_DE (xi > 0: DE -> DM), dark energy with constant w = -0.8090:
+   xi = 0.00: w_eff(z=0,0.5,1,2) = -0.809, -0.809, -0.809, -0.809;  crossing at z = inf
+   xi = 0.10: w_eff(z=0,0.5,1,2) = -0.809, -0.868, -0.978, -1.654;  crossing at z = 1.070  [density sign problem]
+   xi = 0.30: w_eff(z=0,0.5,1,2) = -0.810, -1.003, -1.541, +2.541;  crossing at z = 0.495  [density sign problem]
+   xi = 0.50: w_eff(z=0,0.5,1,2) = -0.810, -1.168, -2.966, +0.903;  crossing at z = 0.330  [density sign problem]
+   xi = 1.00: w_eff(z=0,0.5,1,2) = -0.811, -1.794, +4.410, +0.487;  crossing at z = 0.180  [density sign problem]
+   -> xi giving crossing at z = 1/sqrt5: 0.340; effective CPL fit over 0<z<1.5: w0 = 0.803, wa = -7.359 (phi-ladder: -0.809, -0.618)
+
+Q = -xi H rho_c (xi > 0: DE -> DM), dark energy with constant w = -0.8090:
+   xi = 0.00: w_eff(z=0,0.5,1,2) = -0.809, -0.809, -0.809, -0.809;  crossing at z = inf
+   xi = 0.10: w_eff(z=0,0.5,1,2) = -0.809, -0.849, -0.956, -1.837;  crossing at z = 1.125  [density sign problem]
+   xi = 0.30: w_eff(z=0,0.5,1,2) = -0.809, -0.930, -1.310, +5.062;  crossing at z = 0.640  [density sign problem]
+   xi = 0.50: w_eff(z=0,0.5,1,2) = -0.809, -1.010, -1.777, +1.626;  crossing at z = 0.485  [density sign problem]
+   xi = 1.00: w_eff(z=0,0.5,1,2) = -0.810, -1.205, -4.111, +0.819;  crossing at z = 0.320  [density sign problem]
+   -> xi giving crossing at z = 1/sqrt5: 0.572; effective CPL fit over 0<z<1.5: w0 = -0.053, wa = -4.527 (phi-ladder: -0.809, -0.618)
+
+Growth (mu0) for interacting models depends on the perturbation prescription (momentum transfer); not computed here.

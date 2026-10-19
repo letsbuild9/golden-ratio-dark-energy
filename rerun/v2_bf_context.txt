@@ -1,0 +1,6 @@
+Savage-Dickey context (smoothing = 2 bins): BF at phi-ladder vs the largest BF any single point can get (posterior peak)
+chains        BF(phi)  BF(peak)  ratio | BF along ladder curve at: 0.55, 0.60, pi/5, 2/3, 0.70
+cmb              15.6      88.5   0.18 |   10.2,   15.2,   16.7,   17.5,   16.9
+cmb_pantheonplus    278.2     463.9   0.60 |  438.3,  357.6,  197.2,   74.3,   20.1
+cmb_union3       73.6     258.2   0.29 |   34.4,   63.8,   76.9,   98.5,   90.7
+cmb_desy5sn     260.8     487.6   0.53 |  115.3,  231.5,  288.8,  236.6,  152.5

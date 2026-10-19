@@ -1,0 +1,31 @@
+Background: Borse d=2 best fit to DESI DR2 + CMB + DESY5: H0 = 67.12, Om = 0.3166
+
+GR (xi = 0): gamma_eff at z = 0.0: 0.5565, 0.5: 0.5474, 1.0: 0.5436, 1.5: 0.5420
+
+Q1. Brief's xi = (7 phi - 10)/4 = 0.3316
+    gamma_eff at z = 0.0: 0.5591, 0.5: 0.5391, 1.0: 0.5247, 1.5: 0.5110
+    Delta gamma    = 0.0: +0.0025, 0.5: -0.0082, 1.0: -0.0189, 1.5: -0.0310
+
+Q2. Target: D(0)/D(z_init) lowered by -2.64% (gamma = 1/phi)
+    target Delta gamma = 1/phi - gamma_GR: z=0.0: +0.06150, z=0.5: +0.07067, z=1.0: +0.07444, z=1.5: +0.07599
+    xi =  0.000: growth change +0.00%,  Delta gamma z=0.0: +0.0000,  z=0.5: +0.0000,  z=1.0: +0.0000,  z=1.5: +0.0000
+    xi =  0.332: growth change +0.45%,  Delta gamma z=0.0: +0.0025,  z=0.5: -0.0082,  z=1.0: -0.0189,  z=1.5: -0.0310
+    xi =  1.000: growth change +1.36%,  Delta gamma z=0.0: +0.0077,  z=0.5: -0.0249,  z=1.0: -0.0572,  z=1.5: -0.0937
+    xi =  3.000: growth change +4.22%,  Delta gamma z=0.0: +0.0229,  z=0.5: -0.0752,  z=1.0: -0.1727,  z=1.5: -0.2826
+    xi = 10.000: growth change +15.67%,  Delta gamma z=0.0: +0.0755,  z=0.5: -0.2571,  z=1.0: -0.5879,  z=1.5: -0.9571
+    -> with phantom crossing, positive drag ENHANCES total growth; no xi >= 0 reaches the target.
+
+Q3. f*sigma8 (7 points, CMB-anchored), crossing background:
+    xi = 0 (GR)  chi2 =  6.48   sigma8 = 0.8107   S8 = 0.8328
+    xi = brief   chi2 =  6.36   sigma8 = 0.8142   S8 = 0.8364
+    xi = 3       chi2 =  7.29   sigma8 = 0.8434   S8 = 0.8664
+    best xi on grid = 1.00;  95% upper limit xi < 5.0
+
+Q4. Non-crossing alternative: w0 = -phi/2 with wa >= -0.191 (boundary point used), w >= -1 always
+    DESI+CMB+PantheonPlus: non-crossing boundary point disfavoured at 4.89 sigma
+    DESI+CMB+Union3      : non-crossing boundary point disfavoured at 4.21 sigma
+    DESI+CMB+DESY5       : non-crossing boundary point disfavoured at 4.52 sigma
+    xi needed for gamma = 1/phi suppression: 2.29 (7x the brief's), sigma_D/m_c ~ 36 b/GeV
+    Delta gamma: z=0.0: +0.06864, z=0.5: +0.06604, z=1.0: +0.06844, z=1.5: +0.07248   (target 1/phi - gamma_GR: +0.05881, +0.06527, +0.06801, +0.06922)
+
+Saved figures/fig6_drag_model.png

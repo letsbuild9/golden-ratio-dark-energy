@@ -1,0 +1,63 @@
+== Lemma 1: self-similar partition
+PASS  x = 1/phi
+PASS  (1-x)/x = x/1
+PASS  x^2 + x - 1 = 0
+PASS  x = 1/(1+x)
+PASS  t^2+t-1 has exactly one positive root (= x); the other root is -phi
+PASS  1 + 1/phi = phi
+== Lemma 2: identities
+PASS  (a) x^2 = 1 - x
+PASS  (a) x^3 = 2x - 1 = sqrt5 - 2
+PASS  (a) x^4 = 2 - 3x
+PASS  (b) 1 - x^2/2 = (1+x)/2 = phi/2
+PASS  (c) x^4/2 = (5 - 3 phi)/2
+PASS  (d) x/(2-x) = 1/sqrt5
+PASS  (e) 2 phi - 1 = sqrt5, so 1/(2 phi - 1) = 1/sqrt5
+== Consequences for dark energy
+PASS  w0 = -phi/2
+PASS  wa = -1/phi
+PASS  wa = 1 + 2 w0 (equivalent to x^2 + x - 1 = 0)
+PASS  for general x on the ladder curve, wa - (1 + 2 w0) = -(x^2 + x - 1)
+PASS  1 + w0 + wa = (1 - 3x)/2
+PASS  rho_DE exponent: -3(1+w0+wa) = (3/2)(3x - 1)
+PASS  (1+w0)/(-wa) = x/2
+PASS  w(z) = -1 exactly at z = 1/sqrt5
+PASS  quintom-B region: w0 = -0.809017 > -1 and w0 + wa = -1.42705 < -1
+      fixed-redshift values: w(0.3) = -19*sqrt(5)/52 - 7/52 = -0.95164022; w(0.5) = -5*sqrt(5)/12 - 1/12 = -1.0150283
+PASS  w(0.5) = -1 - (3 - sqrt5)/12 ... closed form check
+PASS  non-crossing bound -(1+w0) = -F(2)
+PASS  d=3 branch: -1 + x^3 = -1 + phi^-3
+PASS  Remark: 6/11 + F(4) - 1/phi = (5/2)(89/55 - phi)
+== alpha_d ladder values (alpha = 1 for d = 1, 3; 1/2 for d = 2, 4)
+      d=1: alpha_d x^d = -1/2 + sqrt(5)/2 = 0.6180339888
+      d=2: alpha_d x^d = 3/4 - sqrt(5)/4 = 0.1909830056
+      d=3: alpha_d x^d = -2 + sqrt(5) = 0.2360679775
+      d=4: alpha_d x^d = (1 - sqrt(5))**4/32 = 0.07294901688
+== Proposition 3: recursion and Fibonacci (exact rationals, n <= 25)
+PASS  x_n = F_(n+1)/F_(n+2)
+PASS  |x_n - 1/phi| <= phi^-n |x_0 - 1/phi|
+== Contraction: f is not a contraction on [0, inf), but f o f is (constant <= 1/4)
+PASS  f(f(u)) = (1 + u)/(2 + u)
+PASS  (f o f)'(u) = 1/(2 + u)^2, decreasing, so sup over u >= 0 is 1/4
+PASS  f'(0) = -1, so f itself has Lipschitz constant 1 on [0, inf)
+== Hurwitz illustration: q^2 |x - p/q| -> 1/sqrt5 along Fibonacci convergents
+      q=      13: 0.44774410  (1/sqrt5 = 0.44721360)
+      q=     144: 0.44720928  (1/sqrt5 = 0.44721360)
+      q=   17711: 0.44721360  (1/sqrt5 = 0.44721360)
+== Numerical values quoted
+      x                = 0.6180339888
+      F(1)             = 0.3090169944
+      F(2)             = 0.1909830056
+      F(3)             = 0.1180339887
+      F(4)             = 0.07294901688
+      x^3              = 0.2360679775
+      w0               = -0.8090169944
+      wa               = -0.6180339888
+      1+w0+wa          = -0.4270509831
+      z_cross          = 0.4472135955
+      xi=(7phi-10)/4   = 0.3315594803
+      6/11+F4          = 0.6184035623
+      residual         = 0.0003695735798
+      2 ln 403         = 11.99787312
+
+31/31 exact checks passed

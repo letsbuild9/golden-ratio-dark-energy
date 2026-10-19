@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the Zenodo record below."
+title: "Pre-registered cosmological predictions of a golden-ratio phase-space hypothesis"
+type: software
+version: "2.0"
+date-released: "2026-10-19"
+doi: "10.5281/zenodo.23481070"
+license: MIT
+authors:
+  - family-names: "Borse"
+    given-names: "Siddesh I."
+    affiliation: "Independent researcher"
+    orcid: "https://orcid.org/0009-0002-3306-7175"
+keywords:
+  - cosmology
+  - dark energy
+  - DESI
+  - growth index
+  - early dark energy
+  - pre-registration
+  - golden ratio
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23481070"
+    description: "Zenodo record with the locked predictions and analysis archive"

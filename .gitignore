@@ -1,0 +1,31 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Large third-party data (download instructions in README.md)
+data/desi_chains/
+data/PantheonPlus/
+data/Union3/
+data/DESY5/
+data/DES-Dovekie/
+
+# Regenerated caches
+data/*.npz
+data/grid_*.npy
+data/ladder_*.npy
+
+# Duplicates of files already in the repository or on Zenodo
+zenodo_upload/borse_analysis_v2.zip
+zenodo_upload/PREDICTIONS.md
+zenodo_upload/PREDICTIONS.sha256
+paper/arxiv_submission.tar.gz
+
+# LaTeX intermediates
+*.aux
+*.log
+*.out
+*.toc

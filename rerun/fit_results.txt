@@ -1,0 +1,112 @@
+
+============================================================================================
+DESI+CMB   (N = 16 data points)
+============================================================================================
+model        k      chi2  dchi2 vs LCDM       AIC       BIC     H0     Om      w0      wa
+LCDM         3     14.64           0.00     20.64     22.96  68.57 0.3007  -1.000   0.000
+Borse d=2    3      9.36          -5.28     15.36     17.67  67.13 0.3164  -0.809  -0.618
+Borse d=3    3     10.04          -4.60     16.04     18.36  66.18 0.3241  -0.764  -0.618
+w0waCDM      5      6.92          -7.72     16.92     20.78  63.94 0.3509  -0.451  -1.631
+
+Likelihood-ratio tests (2 dof: w0, wa):
+  LCDM       is disfavoured relative to the best free (w0, wa) by dchi2 =   7.72  ->  2.31 sigma
+  Borse d=2  is disfavoured relative to the best free (w0, wa) by dchi2 =   2.43  ->  1.04 sigma
+  Borse d=3  is disfavoured relative to the best free (w0, wa) by dchi2 =   3.12  ->  1.25 sigma
+
+============================================================================================
+DESI+CMB+PantheonPlus   (N = 1606 data points)
+============================================================================================
+model        k      chi2  dchi2 vs LCDM       AIC       BIC     H0     Om      w0      wa
+LCDM         3   1420.40           0.00   1426.40   1442.55  68.46 0.3021  -1.000   0.000
+Borse d=2    3   1414.03          -6.37   1420.03   1436.18  67.20 0.3155  -0.809  -0.618
+Borse d=3    3   1420.12          -0.28   1426.12   1442.27  66.31 0.3222  -0.764  -0.618
+w0waCDM      5   1413.04          -7.37   1423.04   1449.94  67.69 0.3112  -0.855  -0.516
+
+Likelihood-ratio tests (2 dof: w0, wa):
+  LCDM       is disfavoured relative to the best free (w0, wa) by dchi2 =   7.37  ->  2.24 sigma
+  Borse d=2  is disfavoured relative to the best free (w0, wa) by dchi2 =   1.00  ->  0.51 sigma
+  Borse d=3  is disfavoured relative to the best free (w0, wa) by dchi2 =   7.09  ->  2.18 sigma
+
+============================================================================================
+DESI+CMB+Union3   (N = 38 data points)
+============================================================================================
+model        k      chi2  dchi2 vs LCDM       AIC       BIC     H0     Om      w0      wa
+LCDM         3     43.05           0.00     49.05     53.96  68.47 0.3020  -1.000   0.000
+Borse d=2    3     31.40         -11.65     37.40     42.31  67.11 0.3167  -0.809  -0.618
+Borse d=3    3     31.69         -11.36     37.69     42.60  66.19 0.3239  -0.764  -0.618
+w0waCDM      5     29.53         -13.52     39.53     47.71  66.15 0.3269  -0.688  -0.987
+
+Likelihood-ratio tests (2 dof: w0, wa):
+  LCDM       is disfavoured relative to the best free (w0, wa) by dchi2 =  13.52  ->  3.25 sigma
+  Borse d=2  is disfavoured relative to the best free (w0, wa) by dchi2 =   1.87  ->  0.85 sigma
+  Borse d=3  is disfavoured relative to the best free (w0, wa) by dchi2 =   2.16  ->  0.96 sigma
+
+============================================================================================
+DESI+CMB+DESY5   (N = 1845 data points)
+============================================================================================
+model        k      chi2  dchi2 vs LCDM       AIC       BIC     H0     Om      w0      wa
+LCDM         3   1664.06           0.00   1670.06   1686.62  68.34 0.3036  -1.000   0.000
+Borse d=2    3   1646.88         -17.18   1652.88   1669.44  67.12 0.3166  -0.809  -0.618
+Borse d=3    3   1649.25         -14.81   1655.25   1671.81  66.25 0.3230  -0.764  -0.618
+w0waCDM      5   1646.38         -17.68   1656.38   1683.98  66.93 0.3190  -0.768  -0.773
+
+Likelihood-ratio tests (2 dof: w0, wa):
+  LCDM       is disfavoured relative to the best free (w0, wa) by dchi2 =  17.68  ->  3.80 sigma
+  Borse d=2  is disfavoured relative to the best free (w0, wa) by dchi2 =   0.51  ->  0.28 sigma
+  Borse d=3  is disfavoured relative to the best free (w0, wa) by dchi2 =   2.88  ->  1.18 sigma
+
+============================================================================================
+Look-elsewhere: 403 (w0, wa) pairs from the brief's ladder family
+============================================================================================
+DESI+CMB+PantheonPlus    Borse d=2 ranks   4/403;   19 pairs beat LCDM by dchi2 > 4;  best pair w0=-0.882, wa=-0.382 (chi2 1413.44)
+DESI+CMB+Union3          Borse d=2 ranks  15/403;   52 pairs beat LCDM by dchi2 > 4;  best pair w0=-0.691, wa=-0.927 (chi2 29.73)
+DESI+CMB+DESY5           Borse d=2 ranks   4/403;   62 pairs beat LCDM by dchi2 > 4;  best pair w0=-0.764, wa=-0.809 (chi2 1646.42)
+  DESI+CMB+PantheonPlus: row 1/16
+  DESI+CMB+PantheonPlus: row 2/16
+  DESI+CMB+PantheonPlus: row 3/16
+  DESI+CMB+PantheonPlus: row 4/16
+  DESI+CMB+PantheonPlus: row 5/16
+  DESI+CMB+PantheonPlus: row 6/16
+  DESI+CMB+PantheonPlus: row 7/16
+  DESI+CMB+PantheonPlus: row 8/16
+  DESI+CMB+PantheonPlus: row 9/16
+  DESI+CMB+PantheonPlus: row 10/16
+  DESI+CMB+PantheonPlus: row 11/16
+  DESI+CMB+PantheonPlus: row 12/16
+  DESI+CMB+PantheonPlus: row 13/16
+  DESI+CMB+PantheonPlus: row 14/16
+  DESI+CMB+PantheonPlus: row 15/16
+  DESI+CMB+PantheonPlus: row 16/16
+  DESI+CMB+Union3: row 1/16
+  DESI+CMB+Union3: row 2/16
+  DESI+CMB+Union3: row 3/16
+  DESI+CMB+Union3: row 4/16
+  DESI+CMB+Union3: row 5/16
+  DESI+CMB+Union3: row 6/16
+  DESI+CMB+Union3: row 7/16
+  DESI+CMB+Union3: row 8/16
+  DESI+CMB+Union3: row 9/16
+  DESI+CMB+Union3: row 10/16
+  DESI+CMB+Union3: row 11/16
+  DESI+CMB+Union3: row 12/16
+  DESI+CMB+Union3: row 13/16
+  DESI+CMB+Union3: row 14/16
+  DESI+CMB+Union3: row 15/16
+  DESI+CMB+Union3: row 16/16
+  DESI+CMB+DESY5: row 1/16
+  DESI+CMB+DESY5: row 2/16
+  DESI+CMB+DESY5: row 3/16
+  DESI+CMB+DESY5: row 4/16
+  DESI+CMB+DESY5: row 5/16
+  DESI+CMB+DESY5: row 6/16
+  DESI+CMB+DESY5: row 7/16
+  DESI+CMB+DESY5: row 8/16
+  DESI+CMB+DESY5: row 9/16
+  DESI+CMB+DESY5: row 10/16
+  DESI+CMB+DESY5: row 11/16
+  DESI+CMB+DESY5: row 12/16
+  DESI+CMB+DESY5: row 13/16
+  DESI+CMB+DESY5: row 14/16
+  DESI+CMB+DESY5: row 15/16
+  DESI+CMB+DESY5: row 16/16
+Saved figures/fig4_w0wa_likelihood.png

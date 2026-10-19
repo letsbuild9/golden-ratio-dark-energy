@@ -1,0 +1,19 @@
+ZENODO FORM (only needed if you upload by hand instead of running upload_to_zenodo.py)
+=====================================================================================
+
+FILES:            PREDICTIONS.md, PREDICTIONS.sha256, borse_analysis_v2.zip
+DOI:              "Do you already have a DOI?" -> No -> "Get a DOI now!"
+RESOURCE TYPE:    Publication -> Technical note
+TITLE:            Pre-registered cosmological predictions of a golden-ratio phase-space hypothesis (locked 19 October 2026)
+CREATOR:          Borse, Siddesh I. | ORCID 0009-0002-3306-7175 | Independent researcher
+PUBLICATION DATE: 2026-10-19   (must be the actual upload day: do not backdate)
+VERSION:          2.0
+LANGUAGE:         English
+LICENSE:          Creative Commons Attribution 4.0 International (CC BY 4.0)
+KEYWORDS:         cosmology; dark energy; DESI; growth index; early dark energy; pre-registration; golden ratio
+ACCESS:           Public, no embargo
+
+DESCRIPTION: copy the DESCRIPTION text from upload_to_zenodo.py, replacing {HASH} with:
+70b9cfb23fc1e0d119ebd81aed270933960fa52256f89f505f799bb3a81767f2
+
+THEN: Preview -> check -> Publish. Published files can never be changed (corrections become a new version).
