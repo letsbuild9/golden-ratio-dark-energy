@@ -6,6 +6,7 @@ version: "2.0"
 date-released: "2026-10-19"
 doi: "10.5281/zenodo.23481070"
 license: MIT
+repository-code: "https://github.com/letsbuild9/golden-ratio-dark-energy"
 authors:
   - family-names: "Borse"
     given-names: "Siddesh I."
