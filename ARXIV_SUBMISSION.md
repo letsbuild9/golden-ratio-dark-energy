@@ -76,7 +76,7 @@ arXiv requires new authors in a category to be endorsed by someone who has publi
 >
 > The paper (attached, 21 pages) tests a parameter-free hypothesis for the dark-energy equation of state and the growth index against DESI DR2 BAO, CMB distance priors, four supernova samples and DESI's official posterior chains. It reports favorable and unfavorable results, quantifies the look-elsewhere effect, and withdraws earlier claims that did not survive testing. The predictions were pre-registered on Zenodo before any post-DR2 DESI data (DOI 10.5281/zenodo.23481070), and all code is public (https://github.com/letsbuild9/golden-ratio-dark-energy).
 >
-> If you are willing, my endorsement code is [CODE]; it can be entered at https://arxiv.org/auth/endorse. I fully understand if you are unable to, and I would be grateful for any comments on the paper either way.
+> If you are willing, my endorsement code is JEEE4W; it can be entered at https://arxiv.org/auth/endorse. I fully understand if you are unable to, and I would be grateful for any comments on the paper either way.
 >
 > Kind regards,
 > Siddesh I. Borse
@@ -84,3 +84,18 @@ arXiv requires new authors in a category to be endorsed by someone who has publi
 > siddesh.borase1997@gmail.com
 
 **Be ready for:** moderators can reclassify a paper (for example to gr-qc or physics.gen-ph) or put it on hold. That is normal for a first, single-author, independent submission; accept a reclassification rather than arguing.
+
+## 6. Your endorsement status (19 October 2026)
+
+**Code: `JEEE4W`** (endorsers enter it at https://arxiv.org/auth/endorse). Eligibility below was checked on arXiv's "Which authors can endorse?" pages for astro-ph.CO.
+
+| Order | Endorser | Why them | Opening line for the email |
+|---|---|---|---|
+| 1 | **Brodie Popovic** (lead author, DES-Dovekie, arXiv:2511.07517) | You use the DES-Dovekie data, and your prediction lies 0.1σ / 0.5σ from their published w₀, wₐ | "I came across your DES-Dovekie reanalysis (arXiv:2511.07517); my paper uses the Dovekie sample, and the predicted (w₀, wₐ) lies within 0.5σ of your published constraint." |
+| 2 | **Vivian Poulin** (arXiv:2505.08051; originator of the axion-like EDE model) | Prediction P6 uses his n = 3 EDE model and quotes his 2025 limits | "My paper predicts an axion-like early-dark-energy fraction in your n = 3 model and compares it with your 2025 ACT DR6 / DESI DR2 limits (arXiv:2505.08051)." |
+| 3 | **Ryan Turner** (lead author, DESI DR1 peculiar velocities, arXiv:2512.03230) | You use his fσ8(0.07) and reproduce his growth index γ = 0.58 ± 0.11 | "My growth-index analysis uses your DESI DR1 peculiar-velocity measurement (arXiv:2512.03230) and reproduces your γ = 0.58 ± 0.11 as a pipeline check." |
+| Backups | Rodrigo Calderón, Théo Simon (2505.08051); Niall Jeffrey, Felipe Andrade-Oliveira (2511.07517); Anthony Carr, Caitlin Ross (2512.03230) | Co-authors of the same papers, all eligible | — |
+
+Not eligible for astro-ph.CO: the quintom-review authors (2511.19994).
+
+Find each person's current email on their recent arXiv papers or their institution's page. Write to one person at a time and wait about a week before the next. Keep it short, attach the PDF, and do not send follow-ups more than once.
