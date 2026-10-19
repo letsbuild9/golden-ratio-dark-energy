@@ -1,6 +1,6 @@
 # Publishing guide (independent researcher)
 
-**Status (20 October 2026):** Step 0 done (ORCID 0009-0002-3306-7175). Step 1 done (Zenodo DOI 10.5281/zenodo.23481070, published 2026-10-19 18:05 UTC). Step 2 done (DOI and GitHub link in the paper). Step 3 done (https://github.com/letsbuild9/golden-ratio-dark-energy; later commits still to push). Step 4 in progress: arXiv account `siddeshborse` created, submission waiting for endorsement (code JEEE4W); emails in `outreach/`. To do: revoke the Zenodo token; push to GitHub; delete the GitHub token after the push.
+**Status (20 October 2026):** Step 0 done (ORCID 0009-0002-3306-7175). Step 1 done (Zenodo DOI 10.5281/zenodo.23481070, published 2026-10-19 18:05 UTC). Step 2 done (DOI and GitHub link in the paper). Step 3 done (https://github.com/letsbuild9/golden-ratio-dark-energy; later commits still to push). Step 4 in progress: arXiv account `siddeshborse` created, submission waiting for endorsement (code JEEE4W); emails in `outreach/`. Zenodo token revoked (20 Oct). To do: push to GitHub; delete the GitHub token after the push.
 
 The order matters. **Zenodo comes first**, because its public date is what proves the predictions came before the data. Then GitHub, then arXiv.
 
