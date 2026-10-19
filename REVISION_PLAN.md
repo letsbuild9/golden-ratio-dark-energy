@@ -5,7 +5,8 @@ Status (19 October 2026): **Phases 0–5 and K1–K3 done.**
 - Review additions were included: the joint early-dark-energy check, binned w(z), energy-exchange sign fix and test, the corrected bridge, and the S8 note.
 - Referee-style review of v2 applied (7 major, 14 minor items; see VERIFICATION.md, fourth pass). Prediction record re-locked the same day with corrected hypothesis wording; no predicted value changed.
 - K4 done: Zenodo DOI 10.5281/zenodo.23481070, published 2026-10-19 18:05 UTC. K5 done: DOI in the paper (2 places), PDF and tarball rebuilt, 122/122 checks.
-- Remaining: revoke the Zenodo upload token, GitHub (D6), K6 (arXiv), D7.
+- D6 done: GitHub https://github.com/letsbuild9/golden-ratio-dark-energy (initial commit 22bd36e).
+- K6 in progress: arXiv account created; astro-ph.CO submission awaits endorsement (code JEEE4W). Remaining: revoke the Zenodo token, push later commits, arXiv upload after endorsement, D7.
 Rule: no paper edits until Phases 0–2 are complete. Every new number must be produced by a script, so it can be re-verified automatically.
 
 ---
